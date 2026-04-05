@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Formularios</title>
+</head>
+<body>
+    <h1>FORMULARIOS</h1>
+    <form>
+        <p>Los formularios son la forma en que se recibe la informacion del usuario, pueden tener inputs de los siguientes tipos:</p>
+        <h2>text</h2>
+        <p>Reciben texto plano.</p>
+        <input type="text" placeholder="text" required >
+
+        <h2>email</h2>
+        <p>Reciben correos electronicos, exigen una @ para permitir enviar el texto.</p>
+        <input type="email" name="correo" placeholder="ejemplo@correo.com" required >
+
+        <h2>password</h2>
+        <p>Reciben contraseñás, ocultandola detras de simbolos.</p>
+        <input type="password" name="password" placeholder="Contraseña" minlength="10" required>
+        
+        <h2>number</h2>
+        <p>Selecciona numeros, se puede limitar con min y max.</p>
+        <input type="number" placeholder="Número">
+
+        <h2>checkbox</h2>
+        <p>Para marcar opciones multiples </p>
+        <input type="checkbox" name="comidita" value="pipsha">pipsha
+        <br>
+        <input type="checkbox" name="comidita" value="chuchi">chuchi
+        <br>
+        <input type="checkbox" name="comidita" value="burgui">burgui
+        <br>
+        <input type="checkbox" name="comidita" value="camperito">camperito
+
+        <h2>date</h2>
+        <p>Seleccion de fecha.</p>
+        <input type="date">
+
+        <h2>radio</h2>
+        <p>Para marcar una sola opción.</p>
+        <p>sexo</p>
+        <input type="radio" name="sexo" value="no"> no
+        <input type="radio" name="sexo" value="si"> si
+
+        <h2>file</h2>
+        <p>Para subir archivos, puede limitarse el tipo de archivo con el atributo accept. </p>
+        <input type="file" accept="image">
+
+        <h2>button</h2>
+        <b>Botón normal.</b>
+        <input type="button">
+
+        <h2>reset</h2>
+        <p>Para resetear los datos escritos.</p>
+        <input type="reset">
+
+        <h2>tel</h2>
+        <p>Para numeros de telefono.</p>
+        <input type="tel">
+
+        <h2>url</h2>
+        <p>Para enlaces.</p>
+        <input type="url">
+
+        <h2>search</h2>
+        <p>Campo de busqueda.</p>
+        <input type="search">
+
+        <h2>range</h2>
+        <p>Para seleccionar un rango con un slider.</p>
+        <input type="range" min="1" max="10">
+
+        <h2>color</h2>
+        <p>Para seleccionar un color.</p>
+        <input type="color">
+
+        <h2>submit</h2>
+        <p>Botón para enviar el formulario.</p>
+        <input type="submit" value="Enviar">
+    </form>
+    <br>
+    <a href="../index.html">Indice del curso :></a>
+</body>
+</html>
