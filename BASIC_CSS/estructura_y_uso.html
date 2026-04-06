@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Estructura y uso de CSS</title>
+    <link rel="stylesheet" href="../public/styles.css">
+</head>
+<body>
+    <h1 class="color-css">CSS, explicación y aplicación</h1>
+    <h2 class="subcolor-css">Como funciona CSS?</h2>
+    <p>CSS aplica estilos (propiedades) a elementos HTML mediante selectores, siguiendo esta ruta: selector → propiedad → valor.</p>
+    <h2 class="subcolor-css">Formas de aplicar CSS</h1>
+    <p>Para aplicar CSS en una pagina web, hay 3 formas distintas, de las cuales hay una que es la que vamos a usar siempre, ya que es la mejor práctica y es la que se usa en el entorno profesional, es decir, usar un archivo externo de css.</p>
+    <h2 class="ejemplo-correcto">CSS en archivo externo, styles.css:</h2>
+    <p>Para aplicarlo de este modo, debemos seguir los siguientes pasos:</p>
+    <ol>
+        <li>Crear el archivo correspondiente a css, es decir, styles.css, suele estar en la raiz del proyecto, dentro de una carpeta llamada public.</li>
+        <li>Para aplicarlo a una pagina, en el head, añadiremos la etiqueta link, la cual llevara <b>rel="stylesheet"</b> para decirle a html que la conexion sera para usar el archivo como hoja de estilos, y href que es la ubicacion del mismo.</li>
+        <li>Al elemento deseado, le aplicaremos una clase o id para poder usarlo en el archivo de css</li>
+        <li>En el archivo css, utilizaremos <a href="selectores.html">selectores</a> para dar propiedades css a los elementos html que querramos segun su clase o id.</li> 
+    </ol>
+    <h2 class="ejemplo-incorrecto">CSS inline:</h2>
+    <p>Se aplicarán los estilos solo a la linea, no es una práctica correcta, talvez solo para pruebas rapidas, pero en la vida real, es mejor usar un archivo de estilos vinculado en el head</p>
+    <p>Ejemplo: &ltp <b>style="color: red;"</b>&gthola&ltp/&gt</p>
+    <h2 class="ejemplo-incorrecto">CSS interno:</h2>
+    <p>CSS interno quiere decir que se añadirá una etiqueta <b>&ltstyle&gt &ltstyle/&gt</b> en el archivo html.</p>
+    <p>Ejemplo: </p>
+    &lt;html&gt; <br>
+    &lt;style&gt; <br>
+    &lt;/style&gt; <br>
+    &lt;/html&gt;</p>
+    <a href="../index.html">Indice del curso :></a>
+    </body>
+</html>

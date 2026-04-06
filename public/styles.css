@@ -1,0 +1,41 @@
+/*=====COLORES DE CSS Y HTML=====*/
+
+.color-html{
+    color: #F16529; /*html orange*/
+}
+
+.subcolor-html{
+    color: #FF775C;
+}
+
+.color-css{
+    color: #1572B6; /*css blue*/
+}
+
+.subcolor-css{
+    color: #637CF8;
+}
+
+#color-curso{
+    color: #6C63FF; /*purple tech*/
+}
+
+/*=====SELECTORES=====*/
+
+.ejemplo-incorrecto{
+    color: red;
+}
+
+.ejemplo-correcto{
+    color: green;
+}
+
+/*==========*/
+
+.red-highlight{
+    color: crimson;
+}
+
+.green-highlight{
+    color:forestgreen
+}
