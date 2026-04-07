@@ -1,0 +1,23 @@
+body{
+    background-color: #f5f7fb;
+    font-family: Montserrat, sans;
+    font-size: 15px;
+    text-align:justify;
+}
+
+h1{
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: tahoma;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration:underline;
+}
